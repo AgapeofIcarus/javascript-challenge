@@ -45,6 +45,9 @@ body {
 /* Adding styles to the aside and filter form */
 .panel .panel-heading {
   background-color: #000000;
+  background-image: url("../images/stars.jpg");
+  background-attachment: fixed;
+  background-position: bottom center;
 }
 
 .ufo-form {
@@ -54,14 +57,30 @@ body {
 .filters .panel-body {
   padding: 0;
   background-color: #000000;
+  background-image: url("../images/stars.jpg");
+  background-attachment: fixed;
+  background-position: bottom center;
 }
 
 .filters {
   margin-top: 10px;
 }
 
-.filters .filter list-group-item {
+.btn-default {
+  color: #ffffff;
   background-color: #000000;
+  border-color: #ffffff;
+  background-image: url("../images/stars.jpg");
+  background-attachment: fixed;
+  background-position: bottom center;
+}
+
+.form-group .filter {
+  background-color: #000000;
+  border-color: #ffffff;
+  background-image: url("../images/stars.jpg");
+  background-attachment: fixed;
+  background-position: bottom center;
 }
 
 select {
